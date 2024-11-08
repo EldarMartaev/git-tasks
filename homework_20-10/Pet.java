@@ -88,24 +88,24 @@ class Hamster1 extends Pet{
     }
 }
 
-class Main{
-    public static void main(String[] args) {
-        Cat cat = new Cat();
-        cat.catchMouse();
-        cat.giveVoice();
-
-        Dog dog = new Dog();
-        dog.bringStick();
-        dog.play();
-
-        Hamster1 hamster = new Hamster1();
-        hamster.hideFood();
-        hamster.sleep();
-
-        Fish fish = new Fish();
-        fish.sleep();
-
-        Spider spider = new Spider();
-        System.out.println("У паука " + spider.getPawCount() + " лапок.");
-    }
-}
+//class Main{
+//    public static void main(String[] args) {
+//        Cat cat = new Cat();
+//        cat.catchMouse();
+//        cat.giveVoice();
+//
+//        Dog dog = new Dog();
+//        dog.bringStick();
+//        dog.play();
+//
+//        Hamster1 hamster = new Hamster1();
+//        hamster.hideFood();
+//        hamster.sleep();
+//
+//        Fish fish = new Fish();
+//        fish.sleep();
+//
+//        Spider spider = new Spider();
+//        System.out.println("У паука " + spider.getPawCount() + " лапок.");
+//    }
+//}
